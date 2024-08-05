@@ -23,7 +23,9 @@ const swaggerOptions = {
       version: '1.0.0',
       description: 'Apology API Information',
     },
-    servers: [{ url: `http://localhost:${PORT}` }],
+    servers: [
+      { url: `https://apology-app.onrender.com` },
+      { url: `http://localhost:${PORT}` }],
   },
   apis: ['./routes/*.js'],
 };
